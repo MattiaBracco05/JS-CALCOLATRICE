@@ -1,0 +1,40 @@
+body {
+    background: lightblue;
+}
+
+#calc input {
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+    font-size: 15px;
+    border: none;
+}
+
+
+/* QUANDO PASSO SOPRA COL MOUSE */
+
+#calc input:hover {
+    background-color: blue;
+}
+
+
+/* QUANDO CLICCO */
+
+#calc input:active {
+    background-color: red;
+}
+
+#calcolatrice {
+    background-color: #eee;
+    width: fit-content;
+    padding: 10px 5px;
+    margin: 10px;
+}
+
+.area {
+    width: 166px;
+    height: 30px;
+    padding: 2px;
+    text-align: right;
+    font-size: 20px
+}
